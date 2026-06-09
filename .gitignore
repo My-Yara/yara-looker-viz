@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts that aren't served
+dist/*.LICENSE.txt

@@ -1,0 +1,46 @@
+/* Yara KPI Card — Community Viz styling */
+/* Designed to match the Yara HTML dashboard mockup */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: transparent;
+  overflow: hidden;
+}
+
+.yara-kpi-card {
+  background: #FFFFFF;
+  border-top: 3px solid #A78BFA;
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.yara-kpi-label {
+  font-size: 13px;
+  color: #64748B;
+  margin-bottom: 8px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.yara-kpi-value {
+  font-size: 32px;
+  font-weight: 600;
+  color: #0D1B2A;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.yara-kpi-caption {
+  font-size: 11px;
+  color: #888780;
+  margin-top: 8px;
+  font-family: 'JetBrains Mono', 'Menlo', 'Monaco', monospace;
+}
