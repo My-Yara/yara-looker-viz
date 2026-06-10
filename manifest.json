@@ -2,7 +2,7 @@
   "name": "Yara Analytics Vizes",
   "organization": "Yara",
   "description": "Branded Community Visualizations for Yara user analytics dashboards",
-  "logoUrl": "gs://yara-looker-viz/yara-logo.png",
+  "logoUrl": "https://my-yara.github.io/yara-looker-viz/yara-logo.png",
   "organizationUrl": "https://my-yara.com",
   "supportUrl": "https://my-yara.com",
   "privacyPolicyUrl": "https://my-yara.com/privacy",
@@ -14,11 +14,11 @@
       "id": "yaraKpiCard",
       "name": "Yara KPI Card",
       "description": "Single KPI scorecard with label, value, accent border, and optional sub-caption",
-      "iconUrl": "gs://yara-looker-viz/yara-kpi-card-icon.png",
+      "iconUrl": "https://my-yara.github.io/yara-looker-viz/yara-kpi-card-icon.png",
       "resource": {
-        "js": "gs://yara-looker-viz/yara-kpi-card-bundle.js",
-        "config": "gs://yara-looker-viz/yara-kpi-card.json",
-        "css": "gs://yara-looker-viz/yara-kpi-card.css"
+        "js": "https://my-yara.github.io/yara-looker-viz/dist/yara-kpi-card-bundle.js",
+        "config": "https://my-yara.github.io/yara-looker-viz/yara-kpi-card.json",
+        "css": "https://my-yara.github.io/yara-looker-viz/yara-kpi-card.css"
       }
     }
   ]
